@@ -1,6 +1,6 @@
 # Day 06 - File I/O Practice (Linux)
 
-## 📌 Objectives
+## 📌 Objective
 
 Practice basic file operations using Linux commands:
 
