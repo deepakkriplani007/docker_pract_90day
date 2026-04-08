@@ -25,13 +25,23 @@ Practice basic file operations using Linux commands:
 ## 📂 Commands Used
 
 * `touch` → Create a new file
-* `>` → Overwrite file content
-* `>>` → Append content to file
-* `tee` → Write and display output together
-* `cat` → Display full file content
-* `head` → Show beginning of file
-* `tail` → Show end of file
+* `>` → Overwrite file content  
+(example: echo "Hello World" > notes.txt)
 
+* `>>` → Append content to file  
+(example: echo "New Line" >> notes.txt)
+
+* `tee` → Write and display output together  
+(example: echo "Line 3" | tee -a notes.txt)
+
+* `cat` → Display full file content  
+(example: cat notes.txt)
+
+* `head` → Show beginning of file  
+(example: head -n 2 notes.txt)
+
+* `tail` → Show end of file  
+(example: tail -n 2 notes.txt)
 ---
 
 ## 📖 Key Learnings
